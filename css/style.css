@@ -585,7 +585,7 @@ section.contact-us .col-md-8.slideanim.slide iframe {
 /*-- /Contact-us --*/
 /*-- Contact-form --*/
 section.contact-form {
-	background:url(../images/green.jpg) no-repeat;
+	background:url(../images/blur.jpg) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -800,7 +800,7 @@ footer .footer-below {
 /*-- /inner pages styling --*/	
 /*-- about page --*/
 section.team-w3ls {
-	background:url(../images/leaf.jpg) no-repeat;
+	background:url(../images/rain.JPG) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -1256,7 +1256,7 @@ section.galleryitem-w3ls p.blog-p2 {
     color:#999;
 }
 section.item-w3ls {
-	background:url(../images/leaf.jpg) no-repeat;
+	background:url(../images/rain.JPG) no-repeat;
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
