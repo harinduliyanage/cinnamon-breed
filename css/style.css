@@ -1650,6 +1650,15 @@ section.our-blog p.p2 {
 #content #slider .navigation ul li {
 	margin-right:15px;
 }
+.navbar{
+	position: relative;
+}
+.brand{
+	position: absolute;
+	left: 50%;
+	margin-left: -50px !important;
+	display: block;
+}
 }
 
 @media (max-width: 568px){
