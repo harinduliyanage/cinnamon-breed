@@ -235,7 +235,8 @@ section.mission p {
 }
 .content-section-b {
     padding: 50px 0;
-	background:url(../images/rain.JPG) no-repeat;
+	background-color: white;
+	color: #2B2E31;/*:url(../images/rain.JPG) no-repeat;*/
 	background-attachment:fixed;
 	background-position:center;
 	background-size:100% 100%;
@@ -263,10 +264,10 @@ ul.li.lead {
 	line-height: 1em;
 }
 .content-section-b h3.section-heading {
-	color:#fff;
+	color:#2B2E31;
 }
 .content-section-b p.lead {
-	color:#fff;
+	color:#2B2E31;
 }
 .section-heading-spacer {
     float: left;
@@ -1464,7 +1465,7 @@ p.lead {
     right: 125px;
 }
 .content-section-b h3.section-heading , .content-section-b p.lead {
-    color: white;
+    color: #2B2E31;
 	font-weight: bold;
 }
 .blog-content {
