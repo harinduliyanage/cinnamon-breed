@@ -169,7 +169,25 @@
 </style>
 <div class="container">
 	<h3 class="slideanim" style="padding-bottom: 3em;padding-top: 2em; text-align: center">Complete List of Pure Ceylon Cinnamon Products</h3>
-    <div class="row">
+		<div class="row" style="padding-bottom: 2em;padding-top: 1em">
+			<div class="col-md-4 slideanim">
+				<img id="myImg3" src="images/grades/M4.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
+				<p style="text-align: center;font-size: large"><b>M4</b></p>
+			</div>
+			<div class="col-md-4 slideanim">
+				<img id="myImg5" src="images/grades/C4%205.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
+				<p style="text-align: center;font-size: large"><b>C4</b></p>
+			</div>
+			<div class="col-md-4 slideanim">
+				<img id="myImg6" src="images/grades/C5%205.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
+				<p style="text-align: center;font-size: large"><b>C5</b></p>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4 slideanim">
+			<img id="myImg4" src="images/grades/C5%20spl%205.JPG" alt="Snow" style="width:100%;max-width:400px ;height: 100%;max-height: 300px">
+			<p style="text-align: center;font-size: large"><b>C5 Special</b></p>
+		</div>
         <div class="col-md-4 slideanim">
             <img id="myImg" src="images/grades/H1%205.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
             <p style="text-align: center;font-size: large"><b>H1</b></p>
@@ -178,31 +196,13 @@
             <img id="myImg1" src="images/grades/H2%205.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
 			<p style="text-align: center;font-size: large"><b>H2</b></p>
         </div>
-        <div class="col-md-4 slideanim">
-            <img id="myImg2" src="images/grades/quellings.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
-			<p style="text-align: center;font-size: large"><b>Quellings</b></p>
-        </div>
     </div>
-	<div class="row" style="padding-bottom: 2em;padding-top: 1em">
-		<div class="col-md-4 slideanim">
-			<img id="myImg3" src="images/grades/M4.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
-			<p style="text-align: center;font-size: large"><b>M4</b></p>
-		</div>
-		<div class="col-md-4 slideanim">
-			<img id="myImg5" src="images/grades/C4%205.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
-			<p style="text-align: center;font-size: large"><b>C4</b></p>
-		</div>
-		<div class="col-md-4 slideanim">
-			<img id="myImg6" src="images/grades/C5%205.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
-			<p style="text-align: center;font-size: large"><b>C5</b></p>
-		</div>
-	</div>
-	<div class="row" style="padding-bottom: 3em;padding-top: 1em"">
-	<div class="col-md-4 slideanim">
-		<img id="myImg4" src="images/grades/C5%20spl%205.JPG" alt="Snow" style="width:100%;max-width:400px ;height: 100%;max-height: 300px">
-		<p style="text-align: center;font-size: large"><b>C5 Special</b></p>
-	</div>
 
+	<div class="row" style="padding-bottom: 3em;padding-top: 1em">
+		<div class="col-md-4 slideanim">
+			<img id="myImg2" src="images/grades/quellings.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
+			<p style="text-align: center;font-size: large"><b>Quellings</b></p>
+		</div>
 		<div class="col-md-4 slideanim">
 			<img id="myImg7" src="images/grades/Elba.JPG" alt="Snow" style="width:100%;max-width:400px; height: 100%;max-height: 300px">
 			<p style="text-align: center;font-size: large"><b>Elba</b></p>
@@ -356,7 +356,27 @@
         });
     });
 </script>
+<!-- /WhatsHelp.io widget -->
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        });
+    })
+</script>
 <script src="js/retina-1.1.0.js"></script>
 <script src="js/jquery.hoverex.min.js"></script>
 <!-- /js files -->
