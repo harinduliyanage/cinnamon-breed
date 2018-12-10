@@ -1636,6 +1636,10 @@ section.our-blog p.p2 {
 }
 
 @media (max-width: 600px){
+    .navbar-default {
+        background-color:rgba(0,0,0, 0.7);
+        border-color:transparent;
+    }
 #portfoliowrap .portfolio-item {
     width:50%;
     padding: 0;
@@ -1663,6 +1667,10 @@ section.our-blog p.p2 {
 }
 
 @media (max-width: 568px){
+    .navbar-default {
+        background-color:rgba(0,0,0, 0.7);
+        border-color:transparent;
+    }
 #content {
     height: 280px;
 }
@@ -1688,6 +1696,10 @@ section.our-blog p.p2 {
 }
 
 @media (max-width: 480px){
+    .navbar-default {
+        background-color:rgba(0,0,0, 0.7);
+        border-color:transparent;
+    }
 #content #slider .navigation ul li {
 	margin:0 2px 0 11px;
 }
@@ -1721,6 +1733,10 @@ margin-top:32px;
 }
 
 @media (max-width: 414px){
+    .navbar-default {
+        background-color:rgba(0,0,0, 0.7);
+        border-color:transparent;
+    }
 #portfoliowrap .portfolio-item {
     width:100%;
     padding: 0;
@@ -1765,6 +1781,10 @@ section.our-blog p.p2 {
 }
 
 @media (max-width: 384px){
+    .navbar-default {
+        background-color:rgba(0,0,0, 0.7);
+        border-color:transparent;
+    }
 #content #slider .navigation ul {
     margin: 0px auto 20px;
 }
@@ -1802,12 +1822,20 @@ section.our-blog p.p2 {
 }
 
 @media (max-width: 375px){
+    .navbar-default {
+        background-color:rgba(0,0,0, 0.7);
+        border-color:transparent;
+    }
 section.our-blog a h4 {
 font-size:17px;	
 }
 }	
 
 @media (max-width: 320px) {
+    .navbar-default {
+        background-color:rgba(0,0,0, 0.7);
+        border-color:transparent;
+    }
 	#content #slider .navigation ul {
 		margin: 0px auto 60px;
 	}
